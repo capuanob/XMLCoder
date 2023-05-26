@@ -1,0 +1,8 @@
+project: XMLCoder
+target: fuzz-xml-coder
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /release/XMLFuzzer
+    libfuzzer: true
